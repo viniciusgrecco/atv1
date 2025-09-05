@@ -10,6 +10,12 @@
 
 1. Vinicius Grecco
 
+## Exercícios - Data Science
+
+- [Exercício 1](1-Data/ex01.md)
+- [Exercício 2 - Neural Networks](1-Data/ex02.md) 
+- [Exercício 3](1-Data/ex03_again.md)
+
 
 
 !!! tip "Instruções"
