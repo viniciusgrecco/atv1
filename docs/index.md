@@ -1,19 +1,14 @@
-# Template de Entrega
+# Template de Entrega atv1
 
 
 ???+ info inline end "Edição"
 
-    2025.1
+    2025.2
 
 
-## Grupo/Kit X
+## Grupo
 
-1. João da Silva
-1. Pedro de Souza
-1. Maria Oliveira
-1. Grupo K
-    - João da Silva
-    - Pedro de Souza
+1. Vinicius Grecco
 
 
 
@@ -98,3 +93,10 @@ Lorem ipsum dolor sit amet
 ## Referências
 
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/){:target='_blank'}
+
+
+## Exercícios - Data Science
+
+- [Exercício 1](1-Data/ex01.md)
+- [Exercício 2 - Neural Networks](1-Data/ex02.md) 
+- [Exercício 3](1-Data/ex03_again.md)
