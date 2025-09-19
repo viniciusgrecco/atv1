@@ -20,6 +20,9 @@
 ### ATV2
 - [Exercícios – Perceptron](2-Perceptron/perceptron.md)
 
+### ATV3
+- [Exercícios - MLP](3-MLP/mlp.md)
+
 
 
 
