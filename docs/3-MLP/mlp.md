@@ -1580,38 +1580,6 @@ print(f"   • ✓ Showed comparison with shallow model")
 print("="*60)
 
 ```
-
-    ============================================================
-    EXERCISE 4: DEEPER MLP - FINAL SUMMARY
-    ============================================================
-    
-    📊 ARCHITECTURE SPECIFICATIONS:
-       • Input features: 4
-       • Hidden layers: 4 (exceeds minimum requirement of 2)
-       • Hidden layer sizes: [32, 24, 16, 12]
-       • Output classes: 3
-       • Total trainable parameters: 1595
-    
-    🎯 PERFORMANCE RESULTS:
-       • Training accuracy: 0.7075
-       • Test accuracy: 0.6500
-       • Final training loss: 0.6556
-    
-    📈 COMPARISON WITH EXERCISE 3:
-       • Shallow model (2 layers): 0.5967
-       • Deeper model (4 layers): 0.6500
-       • Performance change: +0.0533
-    
-    ✅ REQUIREMENTS FULFILLED:
-       • ✓ Repeated Exercise 3 exactly with same data
-       • ✓ Ensured MLP has ≥2 hidden layers (has 4)
-       • ✓ Reused code from Exercise 3 successfully
-       • ✓ Demonstrated deeper architecture functionality
-       • ✓ Provided training results and evaluation
-       • ✓ Showed comparison with shallow model
-    ============================================================
-
-
 # Conclusão e Análise dos Resultados
 
 Este relatório apresentou a implementação completa de Multi-Layer Perceptrons (MLPs) através de quatro exercícios progressivos, demonstrando compreensão teórica e prática de redes neurais artificiais. Abaixo é apresentada uma análise detalhada de como cada exercício atendeu aos critérios de avaliação específicos.
@@ -1646,44 +1614,11 @@ Dataset com 1500 amostras, 3 classes, 4 features conforme especificado. Implemen
 ### MLP Multi-classe
 Extensão bem-sucedida para classificação multi-classe. Implementação de softmax na camada de saída. Categorical cross-entropy como função de perda. One-hot encoding para labels. Predições corretas usando argmax.
 
-### Reutilização Exata do Código (Ponto Extra)
-Utilizamos exatamente a mesma classe MLP do Exercício 2. Modificações apenas em hiperparâmetros: input_size=4, output_size=3, hidden_sizes=[20,16]. Herança limpa através da classe `MultiClassMLP(MLP)` que apenas sobrescreve forward_pass e compute_loss. Zero alteração na estrutura core - todos os métodos fundamentais (backward_pass, train, predict) mantidos idênticos.
-
 ## Exercício 4: MLP Mais Profundo
 
 ### Arquitetura Profunda
-Implementamos 4 camadas ocultas [32, 24, 16, 12], excedendo o requisito mínimo de 2 camadas ocultas. Reutilização exata do código do Exercício 3 com apenas hiperparâmetros alterados: hidden_sizes e learning_rate ajustados.
+Implementamos 4 camadas ocultas [32, 24, 16, 12], excedendo o requisito mínimo de 2 camadas ocultas.
 
 ### Resultados e Comparação
 Treinamento completo da arquitetura profunda por 500 épocas. Comparação direta com modelo raso (2 camadas vs 4 camadas). Métricas completas: accuracy, confusion matrix, per-class metrics. Análise do impacto da profundidade no desempenho com visualizações comparativas.
-
-## Conformidade com Requisitos Técnicos
-
-### Uso Adequado de Toolboxes
-Utilizamos apenas NumPy para operações matriciais básicas. Todas as funções de ativação, loss, gradientes e forward/backward pass implementados manualmente. Nenhuma biblioteca proibida (TensorFlow, PyTorch) foi utilizada no core do MLP.
-
-### Implementação from Scratch
-Todas as operações neurais implementadas do zero. Backpropagation manual com derivadas explícitas. Estruturas de dados próprias para pesos, ativações e gradientes.
-
-### Documentação e Reprodutibilidade
-Código bem comentado com explicações claras. Todos os hiperparâmetros explícitos e justificados. Seeds fixas (random_state=42) para reprodutibilidade. Estrutura modular e reutilizável.
-
-## Análise de Desempenho
-
-| Exercício | Arquitetura | Dataset | Observações |
-|-----------|-------------|---------|-------------|
-| Ex. 1 | [2]→[2]→[1] | Manual | Cálculos matemáticos corretos |
-| Ex. 2 | [2]→[16,8]→[1] | 1000 samples, 2D | Classificação binária efetiva |
-| Ex. 3 | [4]→[20,16]→[3] | 1500 samples, 4D | Multi-classe funcional |
-| Ex. 4 | [4]→[32,24,16,12]→[3] | 1500 samples, 4D | Arquitetura profunda demonstrada |
-
-## Contribuições e Aprendizados
-
-1. **Compreensão Matemática**: Demonstramos entendimento completo de backpropagation, gradientes e otimização
-2. **Implementação Prática**: Criamos MLPs funcionais sem dependência de frameworks
-3. **Modularidade**: Código reutilizável que se adapta facilmente a diferentes arquiteturas
-4. **Análise Crítica**: Comparações entre diferentes abordagens e arquiteturas
-5. **Visualização**: Apresentação clara dos resultados com gráficos informativos
-
-Este trabalho demonstra não apenas conformidade com todos os requisitos técnicos, mas também compreensão profunda dos conceitos fundamentais de MLPs, implementação cuidadosa e análise crítica dos resultados. A progressão dos exercícios mostra evolução clara do conhecimento, desde cálculos manuais até implementações complexas de redes profundas multi-classe.
 
