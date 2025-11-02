@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://hsandmann.github.io/documentation.template/</loc>
+         <lastmod>2025-11-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hsandmann.github.io/documentation.template/1-Data/ex01/</loc>
+         <lastmod>2025-11-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hsandmann.github.io/documentation.template/1-Data/ex02/</loc>
+         <lastmod>2025-11-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hsandmann.github.io/documentation.template/1-Data/ex03_again/</loc>
+         <lastmod>2025-11-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hsandmann.github.io/documentation.template/2-Perceptron/perceptron/</loc>
+         <lastmod>2025-11-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hsandmann.github.io/documentation.template/3-MLP/mlp/</loc>
+         <lastmod>2025-11-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hsandmann.github.io/documentation.template/4-VAE/vae/</loc>
+         <lastmod>2025-11-02</lastmod>
+    </url>
+</urlset>
