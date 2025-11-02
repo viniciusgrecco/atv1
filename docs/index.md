@@ -23,6 +23,12 @@
 ### ATV3
 - [Exercícios - MLP](3-MLP/mlp.md)
 
+### ATV4 - VAE
+- [Exercício - VAE](4-VAE/vae.md)
+
+
+###teste
+
 
 
 
